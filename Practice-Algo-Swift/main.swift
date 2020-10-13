@@ -7,7 +7,5 @@
 
 import Foundation
 
-
-print("Hello, World!")
-
-
+//冒泡排序
+print(bubbleSort(array: [3,5,4,2,1]))
