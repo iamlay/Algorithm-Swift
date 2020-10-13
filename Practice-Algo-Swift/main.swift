@@ -8,4 +8,4 @@
 import Foundation
 
 //冒泡排序
-print(bubbleSort(array: [3,5,4,2,1]))
+print(bubbleSort(list: [3,5,4,2,1]))

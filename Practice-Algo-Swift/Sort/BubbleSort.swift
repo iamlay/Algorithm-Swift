@@ -8,30 +8,27 @@
 import Foundation
 
 
-public func bubbleSort(array: [Int]) -> [Int]{
+public func bubbleSort(list: [Int]) -> [Int]{
     
-    guard array.count > 1 else {
-        
-          return array
+    guard list.count > 1 else {
+        return list
     }
-    var array = array
-    for i in 0..<array.count - 1 {
+    var list = list
+    for i in 0 ..< list.count - 1 {
         
-        var flag: Bool = false
-        for j in 0 ..< array.count - i - 1 {
+        var flag = false
+        for j in 0 ..< list.count - i - 1 {
             
-            if array[j] > array[j+1] {
-                
-                (array[j+1], array[j]) = (array[j], array[j+1])
+            if list[j] > list[j+1] {
+                (list[j+1],list[j]) = (list[j],list[j+1])
                 flag = true
             }
-            
         }
         
         if !flag {
-            return array
+            return list
         }
+        
     }
-    
-    return array;
+    return list
 }
