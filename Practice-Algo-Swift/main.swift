@@ -13,3 +13,6 @@ print(bubbleSort(list: [3,5,4,2,1]))
 var array = [3,4,1,5,4,8]
 print(insertSort(list: &array))
 
+//选择排序
+var selectArray = [3,4,1,5,4,8]
+print(selectSort(list: &selectArray))
