@@ -21,3 +21,8 @@ print(selectSort(list: &selectArray))
 //归并排序
 var mergeArray = [3,4,1,5,4,8]
 print(mergeSort(mergeArray))
+
+//快速排序,原地分区
+var quickArray = [3,4,1,5,4,8]
+quickSort(&quickArray, 0, 5)
+print(quickArray)

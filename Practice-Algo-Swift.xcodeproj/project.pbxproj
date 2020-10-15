@@ -16,6 +16,7 @@
 		B4652E812536DD110035B5D4 /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4652E802536DD110035B5D4 /* InsertSort.swift */; };
 		B4652E842536ED4F0035B5D4 /* SelectSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4652E832536ED4F0035B5D4 /* SelectSort.swift */; };
 		B4652E8725383A7F0035B5D4 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4652E8625383A7F0035B5D4 /* MergeSort.swift */; };
+		B4652E8A253842820035B5D4 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4652E89253842820035B5D4 /* QuickSort.swift */; };
 		B4F92B55251C9C7B00A071F2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F92B54251C9C7B00A071F2 /* main.swift */; };
 		B4F92B5D251C9C9100A071F2 /* LinkNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F92B5C251C9C9100A071F2 /* LinkNode.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		B4652E802536DD110035B5D4 /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
 		B4652E832536ED4F0035B5D4 /* SelectSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSort.swift; sourceTree = "<group>"; };
 		B4652E8625383A7F0035B5D4 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		B4652E89253842820035B5D4 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		B4F92B51251C9C7B00A071F2 /* Practice-Algo-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practice-Algo-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F92B54251C9C7B00A071F2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B4F92B5C251C9C9100A071F2 /* LinkNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkNode.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				B4652E802536DD110035B5D4 /* InsertSort.swift */,
 				B4652E832536ED4F0035B5D4 /* SelectSort.swift */,
 				B4652E8625383A7F0035B5D4 /* MergeSort.swift */,
+				B4652E89253842820035B5D4 /* QuickSort.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				B4652E37253452810035B5D4 /* LinkNode-ReverList.swift in Sources */,
 				B4652E34253452290035B5D4 /* LinkNode-DeleteNCode.swift in Sources */,
 				B4F92B55251C9C7B00A071F2 /* main.swift in Sources */,
+				B4652E8A253842820035B5D4 /* QuickSort.swift in Sources */,
 				B4652E40253452FF0035B5D4 /* LinkNode-HalfNode.swift in Sources */,
 				B4652E842536ED4F0035B5D4 /* SelectSort.swift in Sources */,
 				B4F92B5D251C9C9100A071F2 /* LinkNode.swift in Sources */,

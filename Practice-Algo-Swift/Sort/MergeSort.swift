@@ -7,6 +7,8 @@
 
 import Foundation
 
+// MARK - 归并排序
+
 func mergeSort(_ list: [Int]) -> [Int] {
     
     guard list.count > 1 else {
@@ -21,7 +23,7 @@ func mergeSort(_ list: [Int]) -> [Int] {
 }
 
 
-func merge(letfList: [Int], rightList: [Int]) -> [Int] {
+ private func merge(letfList: [Int], rightList: [Int]) -> [Int] {
     //在合并过程中，创建2个索引，追踪合并的两个数组
     var letfIndex = 0
     var rightIndex = 0
