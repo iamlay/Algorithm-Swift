@@ -15,7 +15,6 @@ public func bubbleSort(list: [Int]) -> [Int]{
     }
     var list = list
     for i in 0 ..< list.count - 1 {
-        
         var flag = false
         for j in 0 ..< list.count - i - 1 {
             
