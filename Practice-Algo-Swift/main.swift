@@ -26,3 +26,4 @@ print(mergeSort(mergeArray))
 var quickArray = [3,4,1,5,4,8]
 quickSort(&quickArray, 0, 5)
 print(quickArray)
+

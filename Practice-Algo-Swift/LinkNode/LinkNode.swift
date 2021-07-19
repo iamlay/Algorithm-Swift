@@ -22,3 +22,5 @@ public class ListNode:Equatable {
         self.next = nil
     }
 }
+
+
