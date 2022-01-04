@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4185209278472B1001CD91D /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4185208278472B1001CD91D /* LRUCache.swift */; };
 		B4652E34253452290035B5D4 /* LinkNode-DeleteNCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4652E33253452290035B5D4 /* LinkNode-DeleteNCode.swift */; };
 		B4652E37253452810035B5D4 /* LinkNode-ReverList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4652E36253452810035B5D4 /* LinkNode-ReverList.swift */; };
 		B4652E3A253452B50035B5D4 /* LinkNode-IsListNodeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4652E39253452B50035B5D4 /* LinkNode-IsListNodeCircle.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B4185208278472B1001CD91D /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
 		B4652E33253452290035B5D4 /* LinkNode-DeleteNCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkNode-DeleteNCode.swift"; sourceTree = "<group>"; };
 		B4652E36253452810035B5D4 /* LinkNode-ReverList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkNode-ReverList.swift"; sourceTree = "<group>"; };
 		B4652E39253452B50035B5D4 /* LinkNode-IsListNodeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkNode-IsListNodeCircle.swift"; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				B4C9CD3026A50BFA00E7F3EF /* addTwoNumbers.swift */,
 				B4C9CD3226A50CF800E7F3EF /* lengthOfLongestSubstring.swift */,
 				B4C9CD3426A5566100E7F3EF /* LeetCode04_findMedianSortedArrays.swift */,
+				B4185208278472B1001CD91D /* LRUCache.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				B4652E8725383A7F0035B5D4 /* MergeSort.swift in Sources */,
 				B4652E3D253452D80035B5D4 /* LinkNode-MergeSortList.swift in Sources */,
 				B4652E3A253452B50035B5D4 /* LinkNode-IsListNodeCircle.swift in Sources */,
+				B4185209278472B1001CD91D /* LRUCache.swift in Sources */,
 				B4652E812536DD110035B5D4 /* InsertSort.swift in Sources */,
 				B4652E37253452810035B5D4 /* LinkNode-ReverList.swift in Sources */,
 				B4652E34253452290035B5D4 /* LinkNode-DeleteNCode.swift in Sources */,

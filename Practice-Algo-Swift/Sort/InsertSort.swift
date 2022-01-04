@@ -15,11 +15,9 @@ func insertSort(list: inout [Int]) -> [Int]{
     for i in  0..<list.count - 1{
         
         if list[i + 1] < list[i] {
-            
             let temp = list[i+1]
             var j = i + 1
             repeat {
-                
                 list[j ] = list[j - 1 ]
                 j -= 1
                 
