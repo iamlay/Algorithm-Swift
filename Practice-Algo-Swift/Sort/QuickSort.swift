@@ -8,7 +8,7 @@
 import Foundation
 
 private func partition(_ array: inout [Int], _ p:  Int,_ r: Int) -> Int {
-    
+
     let pivot = array[r]
     var i = p
     for j in p...r-1 {

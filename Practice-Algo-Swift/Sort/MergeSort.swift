@@ -22,7 +22,6 @@ func mergeSort(_ list: [Int]) -> [Int] {
     return merge(letfList: leftList, rightList: rightList)
 }
 
-
  private func merge(letfList: [Int], rightList: [Int]) -> [Int] {
     //在合并过程中，创建2个索引，追踪合并的两个数组
     var letfIndex = 0
